@@ -75,7 +75,4 @@ class AuthCubit extends Cubit<AuthState> {
       case 'invalid-credential':
         return 'Incorrect email or password.';
       default:
-        return e.message ?? 'Authentication error occurred.';
-    }
-  }
-}
+        return e.message ?? 'Authentication error
